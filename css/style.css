@@ -1,0 +1,114 @@
+H1 {
+	margin: 0;
+	font-size: 16em;
+}
+
+.timer {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.start {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	display: block;
+	box-sizing: border-box;
+	width: 150px;
+	height: 150px;
+	background-color: green;
+	border: none;
+	padding: 0;
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #ffffff;
+	cursor: pointer;
+	border-radius: 50%;
+	font-weight: bold;
+}
+
+.stop {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	display: block;
+	box-sizing: border-box;
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	border: none;
+	padding: 0;
+	text-align: center;
+	font-size:30px;
+	text-transform: uppercase;
+	color: #ffffff;
+	cursor: pointer;
+	border-radius: 50%;
+	font-weight: bold;
+	margin: 0 100px;
+}
+
+.extention {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	display: block;
+	box-sizing: border-box;
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	border: none;
+	padding: 0;
+	text-align: center;
+	font-size: 75px;
+	text-transform: uppercase;
+	color: #ffffff;
+	cursor: pointer;
+	border-radius: 50%;
+	font-weight: bold;
+}
+
+.time-select {
+	text-align: center;
+}
+
+@media (max-width: 700px) {
+	H1 {
+		font-size: 12em;
+	}
+
+	.start {
+		width: 75px;
+		height: 75px;
+		font-size: 20px;
+	}
+
+	.stop {
+		margin: 0 30px;
+		width: 75px;
+		height: 75px;
+		font-size: 20px;
+	}
+
+	.extention {
+		width: 75px;
+		height: 75px;
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 700px) and (orientation: landscape) {
+	H1 {
+		font-size: 8em;
+	}
+
+	.buttons {
+		margin-top: 10px;
+	}
+}
