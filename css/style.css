@@ -78,9 +78,18 @@ H1 {
 	text-align: center;
 }
 
+.time-on-shot-select {
+	width: 35px;
+}
+
+.extention-select {
+	width: 35px;
+}
+
 @media (max-width: 700px) {
 	H1 {
-		font-size: 12em;
+		margin-top: 50px;
+		font-size: 140px;
 	}
 
 	.start {
