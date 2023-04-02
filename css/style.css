@@ -1,7 +1,3 @@
-/*body {
-	background-color: lightskyblue;
-}
-*/
 H1 {
 	margin: 0;
 	font-size: 16em;
@@ -79,15 +75,43 @@ H1 {
 }
 
 .time-select {
-	text-align: center;
+	text-align: right;
+	width: 200px;
+	margin: 0 auto;
+
+	font-size: 18px;
 }
 
 .time-on-shot-select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
 	width: 35px;
+	background-color: #f4f7f6;
+	border: none;
+	padding: 0 5px;
+	font-size: 18px;
+	color: #000;
+	font-weight: 400;
+	font-family: inherit;
+	text-align: center;
+}
+
+.time-on-shot-select:focus, .extention-select:focus {
+	outline: 1px solid #000;
 }
 
 .extention-select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
 	width: 35px;
+	background-color: #f4f7f6;
+	border: none;
+	padding: 0 5px;
+	font-size: 18px;
+	color: #000;
+	font-weight: 400;
+	font-family: inherit;
+	text-align: center;
 }
 
 @media (max-width: 700px) {
@@ -113,15 +137,5 @@ H1 {
 		width: 75px;
 		height: 75px;
 		font-size: 40px;
-	}
-}
-
-@media (max-width: 700px) and (orientation: landscape) {
-	H1 {
-		font-size: 8em;
-	}
-
-	.buttons {
-		margin-top: 10px;
 	}
 }
