@@ -78,7 +78,6 @@ H1 {
 	text-align: right;
 	width: 200px;
 	margin: 0 auto;
-
 	font-size: 18px;
 }
 
@@ -137,5 +136,17 @@ H1 {
 		width: 75px;
 		height: 75px;
 		font-size: 40px;
+	}
+
+	.time-select {
+		font-size: 14px;
+	}
+
+	.time-on-shot-select {
+		font-size: 14px;
+	}
+
+	.extention-select {
+		font-size: 14px;
 	}
 }
